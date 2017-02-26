@@ -13,9 +13,6 @@ spec:
   - name: spark
     port: 7077
     targetPort: 7077
-  - name: driverui
-    port: 4040
-    targetPort: 4040
   selector:
     name: spark-master
 
