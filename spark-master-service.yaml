@@ -13,6 +13,10 @@ spec:
   - name: spark
     port: 7077
     targetPort: 7077
+  - name: masterui
+    port: 4040
+    targetPort: 4040        
+  type: NodePort
   selector:
     name: spark-master
 
